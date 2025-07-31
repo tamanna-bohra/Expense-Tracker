@@ -1,8 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 import { useState,useContext } from 'react'
-const BASE_URL="http://localhost:5000/api/v1/"
-
+const BASE_URL="https://expense-tracker-backend-8put.onrender.com"
+//http://localhost:5000/api/v1/
 const GlobalContext=React.createContext()
 
 export const GlobalProvider=({children})=>{
